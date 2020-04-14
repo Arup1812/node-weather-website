@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> {{ title }} </title>
+        <link rel="icon" href="/img/icon-weather.webp">
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+    <body>
+        <div class="main-content">
+            {{>header}}
+
+            <h3>Help message:</h3>
+            <p>{{ help_msg }}</p>
+        </div>
+        {{>footer}}
+    </body>
+</html>
